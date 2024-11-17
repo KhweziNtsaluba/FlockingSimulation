@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Class>
+  <Member name="QuadTree">
+    <summary>
+      This is the default constructor for the QuadTree class.
+    </summary>
+    <param name="boundary">
+      A Boundary (AABB) object
+    </param>
+  </Member>
+
+  <Member name="subdivide">
+    <summary>
+      Subdivides the current QuadTree object into 4.
+    </summary>
+    <para>
+      4 QuadTree nodes, representing the northwest, notheast, southwest, and southeast quadrants of the
+      current subtree, are created and added as children to the current node.
+    </para>
+  </Member>
+</Class>
